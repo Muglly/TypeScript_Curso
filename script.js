@@ -1,6 +1,5 @@
-function helloWord() {
-    alert("oi");
-}
-function helloWord2() {
-    return 2;
-}
+var pessoa = {
+    nome: 'Rafael',
+    idade: 26
+};
+console.log(pessoa.nome);

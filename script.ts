@@ -1,9 +1,11 @@
-function helloWord ():void 
-{
-    alert("oi")
+interface Pessoa{
+    nome: string,
+    idade: number
 }
 
-function helloWord2 ():number 
-{
-    return 2;
+const pessoa: Pessoa = {
+    nome: 'Rafael',
+    idade: 26
 }
+
+console.log(pessoa.nome)
